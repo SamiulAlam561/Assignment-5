@@ -52,7 +52,7 @@ document.getElementById('donation-noakhali-btn-one').addEventListener('click',fu
     document.getElementById('history-section').classList.add('border', 'border-2', 'p-6', 'rounded-lg', 'mt-16')
  
  header.classList.add('lg:text-2xl', 'text-base', 'font-medium', 'lg:font-bold','mb-6','mt-4');
-    document.getElementById('my_modal_1').showModal();
+    
     let currentTime = new Date().toString()
    const timePara = document.createElement('p')
    timePara.innerText = currentTime;
@@ -70,7 +70,8 @@ document.getElementById('donation-noakhali-btn-one').addEventListener('click',fu
     document.getElementById('money-count-box-one').innerText = newBalance +' '+'BDT';
  
  document.getElementById('my-money').innerText = accountBalance + ' ' + 'BDT'
-    
+
+document.getElementById('my_modal_1').showModal();
  
 })
 
